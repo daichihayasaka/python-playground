@@ -16,7 +16,7 @@ uv init python-playground
 uv run main.py
 ```
 
-### 実行結果
+#### 実行結果
 
 venv が作成された
 
@@ -26,3 +26,19 @@ Using CPython 3.13.3
 Creating virtual environment at: .venv
 Hello from python-playground!
 ```
+
+### venv 有効化
+
+```bash
+source .venv/bin/activate
+```
+
+### パッケージインストール
+
+```bash
+uv add pytest
+```
+
+## Docker
+
+TBD
