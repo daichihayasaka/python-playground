@@ -49,6 +49,19 @@ uv add --dev pytest
 
 https://docs.astral.sh/uv/concepts/projects/dependencies/#development-dependencies
 
+#### パッケージ情報確認
+
+```bash
+# バージョン確認
+uv run pytest --version
+
+# 詳細情報（依存関係含む）
+uv pip show pytest
+
+# インストール済みパッケージ一覧
+uv pip list
+```
+
 #### パッケージ削除
 
 ```bash
